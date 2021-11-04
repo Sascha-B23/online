@@ -1,0 +1,230 @@
+/* Default attributes of table container for entire calendar */
+.table-style {
+	font-family: verdana,arial;
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #CFCDCE; 
+	background-color: #f9f9f9;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-size: 11px;
+}
+
+/* Default attributes of DIV containing table container for entire calendar.
+ * You probably don't want to alter this style.
+ */
+.div-style {
+	z-index: +999;
+	position: absolute;
+	visibility: hidden;
+}
+
+/* Default attributes used in calendar title (month and year columns).*/
+.title-style {
+	padding: 0px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-size: 10px;
+	color: #B40000;	
+}
+
+
+/* Normal appearance of controls in calendar title. */
+/* Note: The right, left and down icons are images, which must be edited if you need to change them. */
+.title-control-normal-style {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ABA9AA; 
+	background-color: #F0F0F0;
+	padding:1px;
+	height: 11px;
+	cursor: pointer;
+}
+
+/* Moused-over (selected) appearance of controls in calendar title. */
+.title-control-select-style {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ABA9AA; 
+	background-color: #EEEEEE;
+	padding:1px;
+	height: 11px;
+	cursor: pointer;
+}
+
+/* Default attributes of drop down lists (month and year). */
+.dropdown-style {
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-size: 10px; 
+	border-width: 1; 
+	border-style: solid; 
+	border-color: #a0a0a0;
+	background-color: #F0F0F0;
+	cursor: pointer;
+}
+
+/* Default attributes selected (mouse-over) item in drop down lists (month and year). */
+.dropdown-select-style {
+	background-color: #B40000;
+	color: #ffffff;	
+}
+
+/* Default attributes unselected (mouse-off) item in drop down lists (month and year). */
+.dropdown-normal-style {
+	background-color: #F0F0F0;
+}
+/*  -------------------------- */
+/* Default attributes used in calendar title background.*/
+.title-background-style {
+	background-color: #F0F0F0;
+}
+
+/* Default attributes of calendar body (weekday titles and numbers). */
+.body-style {
+	padding: 0px;
+	background-color: #ffffff;
+	border-top: 1px solid #CFCDCE; 
+	border-bottom: 1px solid #CFCDCE;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-size: 9px;
+}
+
+/* Attributes of current day in calendar body. */
+A.current-day-style:link{
+	color:#000000;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: bold;
+	text-decoration: none;
+}
+A.current-day-style:visited
+{
+	color:#000000;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: bold;
+	text-decoration: none;
+}
+A.current-day-style:active
+{
+	color:#000000;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight:bold;
+	text-decoration: none;
+}
+A.current-day-style:hover{
+	color:#000000;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Attributes of end-of-week days (Sundays) in calendar body. */
+A.end-of-weekday-style:link{
+	color: #909090;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: normal;
+	text-decoration: none;
+}
+A.end-of-weekday-style:visited
+{
+	color:#909090;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: normal;
+	text-decoration: none;
+}
+A.end-of-weekday-style:active
+{
+	color:#909090;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: normal;
+	text-decoration: none;
+}
+A.end-of-weekday-style:hover{
+	color:#AA2323;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: normal;
+	text-decoration: none;
+}
+
+/* Attributes of all other days in calendar body. */
+A.normal-day-style:link{
+	color: #000000;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: normal;
+	text-decoration: none;
+}
+A.normal-day-style:visited
+{
+	color:#000000;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: normal;
+	text-decoration: none;
+}
+A.normal-day-style:active
+{
+	color:#000000;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: normal;
+	text-decoration: none;
+}
+A.normal-day-style:hover{
+	color:#B40000;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: normal;
+	text-decoration: none;
+}
+
+/* Attributes of border around selected day in calendar body. */
+.selected-day-style {
+	border-style: solid;
+	border-width: 1px; 
+	border-color: #CFCDCE;
+	background-color:#B40000;
+	color:#FFFFFF;
+}
+A.selected-day-style:link{
+	color: #FFFFFF;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: normal;
+	text-decoration: none;
+}
+A.selected-day-style:hover{
+	color: #FFFFFF;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: normal;
+	text-decoration: none;
+}
+
+/* Default attributes of designated holidays. */
+.holiday-style {
+	background-color: #FFDDDD;
+}
+
+/* Attributes of today display at bottom on calendar */
+.today-style {
+	color: #B40000;
+	background-color: #F0F0F0;
+	font-size: 9px;
+	font-family: Verdana, Tahoma, Arial, Futura Bk BT, Serif;	
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	padding: 0px;
+}
+
+/* Attributes of week number division (divider.gif) */
+.weeknumber-div-style {
+	background-color: #d0d0d0; 
+	padding: 0px;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content version="1.0">
+	<!-- Allgemeine Texte -->
+	<entry id="CURRENT_STATUS">Nächste Maßnahme</entry>
+	<entry id="PROCESS_ID">Prozess-ID</entry>
+	<entry id="DEADLINE">Erledigungstermin nächste Maßnahme</entry>
+	<entry id="PRIO">Prioritäten-Standort</entry>
+	<entry id="ABSCHLUSSDATUM">Antwortfrist Vermieter</entry>
+	<entry id="ZAHLUNGSDATUM">Auftragsende</entry>
+	<entry id="SCHEDULECOMMANT">Status-Kommentar</entry>
+	<entry id="SCHEDULECOMMANT_GROUP">Status-Kommentar Paket</entry>
+	<entry id="ARCHIVESTATUS">Status Datenbereinigung</entry>
+	<entry id="PLANNED">Geplant</entry>
+	
+	<entry id="GROUP_ID">Paket-ID</entry>
+	<entry id="GROUP_INSTANCENAME">Paket</entry>
+	<entry id="GROUP_INSTANCENAMEPLURAL">Pakete</entry>
+	<entry id="GROUP_NAME">Name Paket</entry>
+
+	<entry id="FORM">Form</entry>
+	<entry id="FORM_0">Außergerichtlich</entry>
+	<entry id="FORM_1">Gerichtlich</entry>
+	<entry id="STAGE_POINTS_TO_BE_CLARIFIED">Stufen zu klärende Punkte</entry>
+	<entry id="STAGE_POINTS_TO_BE_CLARIFIED_0">-</entry>
+	<entry id="STAGE_POINTS_TO_BE_CLARIFIED_1">1_Informationen beibringen</entry>
+	<entry id="STAGE_POINTS_TO_BE_CLARIFIED_2">2_Informationen auswerten</entry>
+	<entry id="REFERENCE_NUMBER">Aktenzeichen</entry>
+	<entry id="PROCEDURE">Vorgang</entry>
+	<entry id="SUB_PROCEDURE">Teilvorgang</entry>
+	<entry id="PROCEDURE_TYPE">Vorgangstyp</entry>
+	
+</content>

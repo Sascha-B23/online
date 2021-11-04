@@ -1,0 +1,2780 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .v32_24 {
+    width: 100%;
+    height: 1080px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v33_1599 {
+    width: 100%;
+    height: 106px;
+    opacity: 1;
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1306 {
+    width: 100%;
+    height: 60px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.07000000029802322);
+    overflow: hidden;
+  }
+  .v32_1307 {
+    width: 129px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 1179px;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v32_1308 {
+    width: 32px;
+    height: 32px;
+    background: rgba(139,139,139,1);
+    opacity: 1;
+    position: absolute;
+    top: 14px;
+    left: 0px;
+    border-radius: 50%;
+  }
+  .v32_1309 {
+    width: 155px;
+    height: 20px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 21px;
+    left: 20px;
+    overflow: hidden;
+  }
+  .v32_1310 {
+    width: 20px;
+    height: 19px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 136px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1317 {
+    width: 20px;
+    height: 19px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1318 {
+    width: 20px;
+    height: 19px;
+    background: rgba(255,159,67,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1319 {
+    width: 20px;
+    height: 19px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 102px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1328 {
+    width: 20px;
+    height: 19px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1329 {
+    width: 20px;
+    height: 19px;
+    background: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1330 {
+    width: 20px;
+    height: 19px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 68px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1339 {
+    width: 20px;
+    height: 19px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1340 {
+    width: 20px;
+    height: 19px;
+    background: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1341 {
+    width: 20px;
+    height: 19px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 34px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1348 {
+    width: 20px;
+    height: 19px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1349 {
+    width: 20px;
+    height: 19px;
+    background: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1350 {
+    width: 20px;
+    height: 19px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1357 {
+    width: 20px;
+    height: 19px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1358 {
+    width: 20px;
+    height: 19px;
+    background: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1359 {
+    width: 475px;
+    height: 2000px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.07000000029802322);
+    overflow: hidden;
+  }
+  .v32_1360 {
+    width: 475px;
+    height: 100px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1362 {
+    width: 475px;
+    height: 998px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1363 {
+    width: 475px;
+    height: 40px;
+    background: url("../images/v32_1363.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 162px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1364 {
+    width: 475px;
+    height: 40px;
+    background: linear-gradient(rgba(228,25,57,1), rgba(235,37,37,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1365 {
+    width: 5px;
+    height: 40px;
+    background: linear-gradient(rgba(248,29,0,1), rgba(233,8,35,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 470px;
+  }
+  .v32_1366 {
+    width: 405px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 12px;
+    left: 70px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v32_1367 {
+    width: 405px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 252px;
+    left: 70px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v32_1368 {
+    width: 405px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 414px;
+    left: 70px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v32_1369 {
+    width: 405px;
+    height: 180px;
+    background: url("../images/v32_1369.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 52px;
+    left: 70px;
+    overflow: hidden;
+  }
+  .v32_1370 {
+    width: 375px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v32_1371 {
+    width: 375px;
+    color: rgba(15,15,15,1);
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v32_1372 {
+    width: 375px;
+    color: rgba(15,15,15,1);
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v32_1373 {
+    width: 375px;
+    color: rgba(242,242,242,1);
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v32_1374 {
+    width: 375px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 160px;
+    left: 30px;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v32_1375 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 81px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1384 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1385 {
+    width: 18px;
+    height: 18px;
+    background: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1386 {
+    width: 375px;
+    height: 100px;
+    background: url("../images/v32_1386.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 292px;
+    left: 100px;
+    overflow: hidden;
+  }
+  .v32_1387 {
+    width: 375px;
+    color: rgba(15,15,15,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v32_1388 {
+    width: 375px;
+    color: rgba(15,15,15,1);
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v32_1389 {
+    width: 375px;
+    color: rgba(15,15,15,1);
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v32_1390 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 53px;
+    left: 70px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1399 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1400 {
+    width: 18px;
+    height: 18px;
+    background: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1401 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 93px;
+    left: 70px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1408 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1409 {
+    width: 18px;
+    height: 18px;
+    background: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1410 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 173px;
+    left: 70px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1425 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1426 {
+    width: 18px;
+    height: 18px;
+    background: rgba(242,242,242,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1427 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 72px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1446 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1447 {
+    width: 18px;
+    height: 18px;
+    background: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1448 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 293px;
+    left: 72px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1459 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1460 {
+    width: 18px;
+    height: 18px;
+    background: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1461 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 333px;
+    left: 72px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v32_1470 {
+    width: 18px;
+    height: 18px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1471 {
+    width: 18px;
+    height: 18px;
+    background: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v32_1472 {
+    width: 209px;
+    color: url("../images/v32_1472.png");
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v32_1473 {
+    width: 4px;
+    height: 3px;
+    background: url("../images/v32_1473.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 502px;
+    left: 300px;
+    overflow: hidden;
+  }
+  .v32_1474 {
+    width: 3px;
+    height: 4px;
+    background: rgba(146,146,157,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+  }
+  .v33_1483 {
+    width: 303px;
+    color: rgba(17,11,86,1);
+    position: absolute;
+    top: 100px;
+    margin: 1%;
+    font-family: Ubuntu;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .vertragsbutton {
+    width: 303px;
+    color: rgba(17,11,86,1);
+    position: absolute;
+    top: 500px;
+    margin: 1%;
+    font-family: Ubuntu;
+    font-weight: Bold;
+    font-size: 80px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1485 {
+    width: 298px;
+    height: 313px;
+    background: url("../images/v33_1485.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 200px;
+    overflow: hidden;
+    margin-left: 25px;
+  }
+  .v33_1486 {
+    width: 298px;
+    height: 313px;
+    background: url("../images/v33_1486.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v33_1487 {
+    width: 298px;
+    height: 313px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(230,239,251,1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+  .v33_1667 {
+    width: 298px;
+    height: 313px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(230,239,251,1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+  .v33_1488 {
+    width: 242px;
+    height: 5px;
+    background: rgba(237,237,244,1);
+    opacity: 1;
+    position: absolute;
+    top: 268px;
+    left: 28px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+  }
+  .v33_1489 {
+    width: 138px;
+    height: 5px;
+    background: linear-gradient(rgba(18,160,240,1), rgba(17,88,228,1));
+    opacity: 1;
+    position: absolute;
+    top: 268px;
+    left: 28px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+  }
+  .v33_1490 {
+    width: 126px;
+    color: rgba(15,15,15,1);
+    position: absolute;
+    top: 242px;
+    left: 28px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1491 {
+    width: 53px;
+    color: rgba(15,15,15,1);
+    position: absolute;
+    top: 244px;
+    left: 217px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1492 {
+    width: 105px;
+    height: 105px;
+    background: linear-gradient(rgba(18,160,240,1), rgba(17,88,228,1));
+    opacity: 0.5;
+    position: absolute;
+    top: 42px;
+    left: 96px;
+    border-radius: 50%;
+  }
+  .v33_1493 {
+    width: 231px;
+    height: 52px;
+    background: url("../images/v33_1493.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 162px;
+    left: 34px;
+    overflow: hidden;
+  }
+  .v33_1494 {
+    width: 231px;
+    color: rgba(17,11,86,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v33_1495 {
+    width: 99px;
+    color: rgba(103,110,137,1);
+    position: absolute;
+    top: 31px;
+    left: 67px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v33_1668 {
+    width: 1300px;
+    height: 313px;
+    background: url("../images/v33_1668.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 200px;
+    overflow: hidden;
+  }
+  .v33_1669 {
+    width: 298px;
+    height: 313px;
+    background: url("../images/v33_1669.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 357px;
+    overflow: hidden;
+  }
+  .v33_1670 {
+    width: 298px;
+    height: 313px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(230,239,251,1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+  .v33_1671 {
+    width: 298px;
+    height: 313px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(230,239,251,1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+  .v33_1672 {
+    width: 242px;
+    height: 5px;
+    background: rgba(237,237,244,1);
+    opacity: 1;
+    position: absolute;
+    top: 268px;
+    left: 28px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+  }
+  .v33_1673 {
+    width: 138px;
+    height: 5px;
+    background: linear-gradient(rgba(228,25,57,1), rgba(235,37,37,1));
+    opacity: 1;
+    position: absolute;
+    top: 268px;
+    left: 28px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+  }
+  .v33_1674 {
+    width: 126px;
+    color: rgba(15,15,15,1);
+    position: absolute;
+    top: 242px;
+    left: 28px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1675 {
+    width: 53px;
+    color: rgba(15,15,15,1);
+    position: absolute;
+    top: 244px;
+    left: 217px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1676 {
+    width: 105px;
+    height: 105px;
+    background: linear-gradient(rgba(228,25,57,1), rgba(235,37,37,1));
+    opacity: 0.5;
+    position: absolute;
+    top: 42px;
+    left: 96px;
+    border-radius: 50%;
+  }
+  .v33_1677 {
+    width: 232px;
+    height: 52px;
+    background: url("../images/v33_1677.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 161px;
+    left: 33px;
+    overflow: hidden;
+  }
+  .v33_1678 {
+    width: 232px;
+    color: rgba(17,11,86,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v33_1679 {
+    width: 99px;
+    color: rgba(103,110,137,1);
+    position: absolute;
+    top: 32px;
+    left: 68px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v33_1680 {
+    width: 298px;
+    height: 313px;
+    background: url("../images/v33_1680.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 26.5%;
+    overflow: hidden;
+  }
+  .v33_1681 {
+    width: 298px;
+    height: 313px;
+    background: url("../images/v33_1681.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v33_1682 {
+    width: 298px;
+    height: 313px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(230,239,251,1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+  .v33_1683 {
+    width: 298px;
+    height: 313px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(230,239,251,1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+  .v33_1684 {
+    width: 242px;
+    height: 5px;
+    background: rgba(237,237,244,1);
+    opacity: 1;
+    position: absolute;
+    top: 268px;
+    left: 28px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+  }
+  .v33_1685 {
+    width: 138px;
+    height: 5px;
+    background: linear-gradient(rgba(0,132,255,1), rgba(87,38,227,1));
+    opacity: 1;
+    position: absolute;
+    top: 268px;
+    left: 28px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+  }
+  .v33_1686 {
+    width: 126px;
+    color: rgba(15,15,15,1);
+    position: absolute;
+    top: 242px;
+    left: 28px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1687 {
+    width: 53px;
+    color: rgba(15,15,15,1);
+    position: absolute;
+    top: 244px;
+    left: 217px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1688 {
+    width: 105px;
+    height: 105px;
+    background: linear-gradient(rgba(168,15,222,1), rgba(31,49,215,1));
+    opacity: 0.4000000059604645;
+    position: absolute;
+    top: 42px;
+    left: 96px;
+    border-radius: 50%;
+  }
+  .v33_1689 {
+    width: 154px;
+    height: 52px;
+    background: url("../images/v33_1689.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 161px;
+    left: 72px;
+    overflow: hidden;
+  }
+  .v33_1690 {
+    width: 154px;
+    color: rgba(17,11,86,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v33_1691 {
+    width: 99px;
+    color: rgba(103,110,137,1);
+    position: absolute;
+    top: 32px;
+    left: 29px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v33_1568 {
+    width: 1000px;
+    height: 309px;
+    background: url("../images/v33_1568.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 200px;
+    overflow: hidden;
+  }
+  .v33_1569 {
+    width: 305px;
+    height: 309px;
+    background: url("../images/v33_1569.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 690px;
+    overflow: hidden;
+  }
+  .v33_1570 {
+    width: 305px;
+    height: 309px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 2px dashed rgba(163,160,195,1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+  .v33_1576 {
+    width: 224px;
+    height: 111px;
+    background: url("../images/v33_1576.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 146px;
+    left: 41px;
+    overflow: hidden;
+  }
+  .v33_1577 {
+    width: 139px;
+    color: rgba(17,11,86,1);
+    position: absolute;
+    top: 0px;
+    left: 42px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+  
+  .v33_1578 {
+    width: 139px;
+    color: rgba(17,11,86,1);
+    position: absolute;
+    top: 0px;
+    left: 42px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 70px;
+    opacity: 1;
+    text-align: center;
+  }
+  
+  .v33_1692 {
+    width: 224px;
+    color: rgba(17,11,86,1);
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-family: Montserrat;
+    font-weight: Italic;
+    font-size: 10px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v33_1524 {
+    width: 50%;
+    height: 631px;
+    background: url("../images/v33_1524.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 637px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v33_1525 {
+    width: 400px;
+    color: rgba(17,11,86,1);
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    font-family: Ubuntu;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1526 {
+    width: 83px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 71px;
+    left: 113px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1650 {
+    width: 83px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 71px;
+    left: 28px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1527 {
+    width: 204px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 71px;
+    left: 588px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1564 {
+    width: 204px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 70px;
+    left: 781px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1559 {
+    width: 204px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 70px;
+    left: 435px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1645 {
+    width: 204px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 71px;
+    left: 269px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1528 {
+    width: 179px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 71px;
+    left: 1052px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1638 {
+    width: 179px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 71px;
+    left: 1215px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v66_40 {
+    width: 179px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 71px;
+    left: 1295px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1529 {
+    width: 15px;
+    height: 10px;
+    background: url("../images/v33_1529.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 76px;
+    left: 187px;
+    overflow: hidden;
+  }
+  .v33_1530 {
+    width: 15px;
+    height: 5px;
+    background: url("../images/v33_1530.png");
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(59,76,104,1);
+  }
+  .v33_1531 {
+    height: 9px;
+    background: url("../images/v33_1531.png");
+    opacity: 1;
+    position: absolute;
+    top: 1px;
+    left: 7px;
+    border: 1px solid rgba(59,76,104,1);
+  }
+  .v33_1532 {
+    width: 100%;
+    height: 68px;
+    background: url("../images/v33_1532.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 317px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v33_1533 {
+    width: 100%;
+    height: 68px;
+    background: url("../images/v33_1533.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .v33_1534 {
+    width: 177px;
+    color: rgba(139,139,139,1);
+    position: absolute;
+    top: 27px;
+    left: 1056px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1535 {
+    width: 172px;
+    color: rgba(139,139,139,1);
+    position: absolute;
+    top: 25px;
+    left: 588px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1536 {
+    width: 280px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 24px;
+    left: 113px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1653 {
+    width: 280px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 25px;
+    left: 288px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1537 {
+    width: 20px;
+    height: 19px;
+    background: url("../images/v33_1537.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 24px;
+    left: 31px;
+    overflow: hidden;
+  }
+  .v33_1538 {
+    width: 20px;
+    height: 19px;
+    background: rgba(253,210,49,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+  }
+  .v33_1539 {
+    width: 11px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 6px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1540 {
+    width: 100%;
+    height: 112px;
+    background: url("../images/v33_1540.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 251px;
+    left: 111px;
+    overflow: hidden;
+  }
+  .v33_1542 {
+    width: 179px;
+    color: rgba(139,139,139,1);
+    position: absolute;
+    top: 1px;
+    left: 940px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1641 {
+    width: 179px;
+    color: rgba(139,139,139,1);
+    position: absolute;
+    top: 3px;
+    left: 1103px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1642 {
+    width: 179px;
+    color: rgba(139,139,139,1);
+    position: absolute;
+    top: 92px;
+    left: 1103px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1543 {
+    width: 155px;
+    color: rgba(139,139,139,1);
+    position: absolute;
+    top: 1px;
+    left: 476px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1544 {
+    width: 272px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1651 {
+    width: 272px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 0px;
+    left: 157px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1548 {
+    width: 100%;
+    height: 290px;
+    background: url("../images/v33_1548.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 157px;
+    left: 31px;
+    overflow: hidden;
+  }
+  .v33_1550 {
+    width: 179px;
+    color: rgba(43,44,67,1);
+    position: absolute;
+    top: 4px;
+    left: 1021px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: left;
+  }
+  .v33_1639 {
+    width: 179px;
+    color: rgba(43,44,67,1);
+    position: absolute;
+    top: 3px;
+    left: 1184px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: left;
+  }
+  .v33_1644 {
+    width: 179px;
+    color: rgba(43,44,67,1);
+    position: absolute;
+    top: 270px;
+    left: 1184px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: left;
+  }
+  .v33_1551 {
+    width: 122px;
+    color: rgba(43,44,67,1);
+    position: absolute;
+    top: 3px;
+    left: 557px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: left;
+  }
+  .v33_1565 {
+    width: 122px;
+    color: rgba(43,44,67,1);
+    position: absolute;
+    top: 2px;
+    left: 749px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: left;
+  }
+  .v33_1566 {
+    width: 122px;
+    color: rgba(139,139,139,1);
+    position: absolute;
+    top: 96px;
+    left: 749px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1567 {
+    width: 139px;
+    color: rgba(139,139,139,1);
+    position: absolute;
+    top: 186px;
+    left: 749px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1552 {
+    width: 446px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1646 {
+    width: 446px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 0px;
+    left: 238px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1560 {
+    width: 446px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 2px;
+    left: 404px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1561 {
+    width: 446px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 96px;
+    left: 404px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1562 {
+    width: 446px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 186px;
+    left: 404px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1553 {
+    width: 16px;
+    height: 19px;
+    background: url("../images/v33_1553.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v33_1554 {
+    width: 5px;
+    height: 2px;
+    background: linear-gradient(rgba(18,160,240,1), rgba(17,88,228,1));
+    opacity: 1;
+    position: absolute;
+    top: 11px;
+    left: 3px;
+  }
+  .v33_1555 {
+    width: 16px;
+    height: 19px;
+    background: linear-gradient(rgba(18,160,240,1), rgba(17,88,228,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .v33_1647 {
+    width: 16px;
+    height: 19px;
+    background: url("../images/v33_1647.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 97px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v33_1648 {
+    width: 5px;
+    height: 2px;
+    background: linear-gradient(rgba(18,160,240,1), rgba(17,88,228,1));
+    opacity: 1;
+    position: absolute;
+    top: 11px;
+    left: 3px;
+  }
+  .v33_1649 {
+    width: 16px;
+    height: 19px;
+    background: linear-gradient(rgba(18,160,240,1), rgba(17,88,228,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .v33_1585 {
+    width: 100%;
+    height: 207px;
+    background: url("../images/v33_1585.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 424px;
+    left: 30px;
+    overflow: hidden;
+  }
+  .v33_1587 {
+    width: 179px;
+    color: rgba(43,44,67,1);
+    position: absolute;
+    top: 0px;
+    left: 1025px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: left;
+  }
+  .v33_1588 {
+    width: 122px;
+    color: rgba(43,44,67,1);
+    position: absolute;
+    top: 2px;
+    left: 557px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: left;
+  }
+  .v33_1589 {
+    width: 122px;
+    color: rgba(43,44,67,1);
+    position: absolute;
+    top: 2px;
+    left: 749px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: left;
+  }
+  .v33_1590 {
+    width: 122px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 96px;
+    left: 759px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1591 {
+    width: 139px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 186px;
+    left: 759px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1592 {
+    width: 446px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 1px;
+    left: 80px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1654 {
+    width: 446px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 5px;
+    left: 238px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1593 {
+    width: 446px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 2px;
+    left: 404px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1594 {
+    width: 446px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 95px;
+    left: 344px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1595 {
+    width: 446px;
+    color: linear-gradient(rgba(81,81,81,1), rgba(25,25,25,1));
+    position: absolute;
+    top: 185px;
+    left: 344px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1596 {
+    width: 16px;
+    height: 19px;
+    background: url("../images/v33_1596.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v33_1597 {
+    width: 5px;
+    height: 2px;
+    background: linear-gradient(rgba(18,160,240,1), rgba(17,88,228,1));
+    opacity: 1;
+    position: absolute;
+    top: 11px;
+    left: 3px;
+  }
+  .v33_1598 {
+    width: 16px;
+    height: 19px;
+    background: linear-gradient(rgba(18,160,240,1), rgba(17,88,228,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .v33_1581 {
+    width: 204px;
+    color: rgba(59,76,104,1);
+    position: absolute;
+    top: 71px;
+    left: 917px;
+    font-family: Ubuntu;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1582 {
+    width: 122px;
+    color: rgba(43,44,67,1);
+    position: absolute;
+    top: 160px;
+    left: 917px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: left;
+  }
+  .v33_1637 {
+    width: 122px;
+    color: rgba(43,44,67,1);
+    position: absolute;
+    top: 427px;
+    left: 912px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: left;
+  }
+  .v33_1583 {
+    width: 122px;
+    color: rgba(139,139,139,1);
+    position: absolute;
+    top: 254px;
+    left: 917px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1584 {
+    width: 139px;
+    color: rgba(139,139,139,1);
+    position: absolute;
+    top: 345px;
+    left: 936px;
+    font-family: Ubuntu;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v76_28 {
+    width: 14px;
+    height: 113px;
+    background: rgba(212,212,219,1);
+    opacity: 1;
+    position: absolute;
+    top: 125px;
+    left: 1388px;
+    border: 0px solid rgba(150,150,150,1);
+    overflow: hidden;
+  }
+  .v33_1579 {
+    width: 50px;
+    height: 10px;
+    background: rgba(17,11,86,0.44999998807907104);
+    opacity: 1;
+    position: absolute;
+    top: 337px;
+    left: 400px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    overflow: hidden;
+  }
+  .v33_1580 {
+    width: 20px;
+    height: 9px;
+    background: rgba(17,11,86,0.44999998807907104);
+    opacity: 1;
+    position: absolute;
+    top: 317px;
+    left: 1751px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    overflow: hidden;
+  }
+  .v33_1666 {
+    width: 20px;
+    height: 9px;
+    background: rgba(17,11,86,0.44999998807907104);
+    opacity: 1;
+    position: absolute;
+    top: 367px;
+    left: 400px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    transform: rotate(-90deg);
+    overflow: hidden;
+  }
+  .v33_1600 {
+    width: 114px;
+    height: 38px;
+    background: url("../images/v33_1600.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 631px;
+    left: 400px;
+    overflow: hidden;
+  }
+  .v33_1601 {
+    width: 38px;
+    height: 38px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0px solid rgba(150,150,150,1);
+    overflow: hidden;
+  }
+  .v33_1602 {
+    width: 38px;
+    height: 38px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 38px;
+    border: 0px solid rgba(226,226,234,1);
+    overflow: hidden;
+  }
+  .v33_1603 {
+    width: 38px;
+    height: 38px;
+    background: rgba(181,181,190,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 76px;
+    border: 0px solid rgba(226,226,234,1);
+    overflow: hidden;
+  }
+  .v33_1604 {
+    width: 1px;
+    height: 38px;
+    background: rgba(241,241,245,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 75px;
+    border: 0px solid rgba(150,150,150,1);
+    overflow: hidden;
+  }
+  .v33_1605 {
+    width: 1px;
+    height: 38px;
+    background: rgba(241,241,245,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 38px;
+    border: 0px solid rgba(150,150,150,1);
+    overflow: hidden;
+  }
+  .v33_1606 {
+    width: 16px;
+    height: 16px;
+    background: url("../images/v33_1606.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 11px;
+    left: 87px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v33_1611 {
+    width: 16px;
+    height: 16px;
+    background: url("../images/v33_1611.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 11px;
+    left: 49px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v33_1616 {
+    width: 16px;
+    height: 16px;
+    background: url("../images/v33_1616.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v33_1621 {
+    width: 38px;
+    height: 38px;
+    background: url("../images/v33_1621.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 631px;
+    left: 400px;
+    overflow: hidden;
+  }
+  .v33_1622 {
+    width: 38px;
+    height: 38px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0px solid rgba(226,226,234,1);
+    overflow: hidden;
+  }
+  .v33_1623 {
+    width: 20px;
+    height: 18px;
+    background: url("../images/v33_1623.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v33_1627 {
+    width: 200px;
+    height: 38px;
+    background: url("../images/v33_1627.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 631px;
+    left: 400px;
+    overflow: hidden;
+  }
+  .v33_1628 {
+    width: 200px;
+    height: 38px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v33_1629 {
+    width: 200px;
+    height: 38px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0px solid rgba(226,226,234,1);
+    overflow: hidden;
+  }
+  .v33_1630 {
+    width: 1px;
+    height: 38px;
+    background: rgba(241,241,245,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 171px;
+    border: 0px solid rgba(150,150,150,1);
+    overflow: hidden;
+  }
+  .v33_1631 {
+    width: 110px;
+    height: 16px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    overflow: hidden;
+  }
+  .v33_1632 {
+    width: 70px;
+    color: rgba(105,105,116,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1633 {
+    width: 42px;
+    color: rgba(68,68,79,1);
+    position: absolute;
+    top: 11px;
+    left: 86px;
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1634 {
+    width: 10px;
+    height: 6px;
+    background: url("../images/v33_1634.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 16px;
+    left: 180px;
+    overflow: hidden;
+  }
+  .v33_1635 {
+    width: 6px;
+    height: 10px;
+    background: rgba(146,146,157,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+  }
+  .v33_1636 {
+    width: 31px;
+    height: 30px;
+    background: rgba(120,141,166,1);
+    opacity: 1;
+    position: absolute;
+    top: 635px;
+    left: 1456px;
+  }
+  .v33_1655 {
+    width: 446px;
+    height: 50px;
+    background: url("../images/v33_1655.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    overflow: hidden;
+  }
+  .v33_1656 {
+    width: 209px;
+    height: 50px;
+    background: linear-gradient(rgba(248,29,0,1), rgba(233,8,35,1));
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 237px;
+    overflow: hidden;
+  }
+  .v33_1657 {
+    width: 139px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 16px;
+    left: 273px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v33_1664 {
+    width: 209px;
+    height: 50px;
+    background: linear-gradient(rgba(0,132,255,1), rgba(87,38,227,1));
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v33_1665 {
+    width: 161px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 16px;
+    left: 24px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v65_32 {
+    width: 15px;
+    height: 15px;
+    background: url("../images/v65_32.png");
+    opacity: 1;
+    position: absolute;
+    top: 795px;
+    left: 500px;
+    border: 5px solid linear-gradient(rgba(248,29,0,1), rgba(233,8,35,1));
+  }
+  .v66_34 {
+    width: 15px;
+    height: 15px;
+    background: url("../images/v66_34.png");
+    opacity: 1;
+    position: absolute;
+    top: 891px;
+    left: 500px;
+    border: 5px solid linear-gradient(rgba(248,29,0,1), rgba(233,8,35,1));
+  }
+  .v66_36 {
+    width: 15px;
+    height: 15px;
+    background: url("../images/v66_36.png");
+    opacity: 1;
+    position: absolute;
+    top: 978px;
+    left: 500px;
+    border: 5px solid linear-gradient(rgba(248,29,0,1), rgba(233,8,35,1));
+  }
+  .v66_38 {
+    width: 15px;
+    height: 15px;
+    background: url("../images/v66_38.png");
+    opacity: 1;
+    position: absolute;
+    top: 1063px;
+    left: 500px;
+    border: 5px solid linear-gradient(rgba(248,29,0,1), rgba(233,8,35,1));
+  }
+  .v66_27 {
+    width: 5px;
+    height: 14px;
+    background: url("../images/v66_27.png");
+    opacity: 1;
+    position: absolute;
+    top: 798px;
+    left: 500px;
+    border: 5px solid linear-gradient(rgba(0,132,255,1), rgba(87,38,227,1));
+  }
+  .v66_35 {
+    width: 5px;
+    height: 14px;
+    background: url("../images/v66_35.png");
+    opacity: 1;
+    position: absolute;
+    top: 894px;
+    left: 500px;
+    border: 5px solid linear-gradient(rgba(0,132,255,1), rgba(87,38,227,1));
+  }
+  .v66_37 {
+    width: 5px;
+    height: 14px;
+    background: url("../images/v66_37.png");
+    opacity: 1;
+    position: absolute;
+    top: 981px;
+    left: 500px;
+    border: 5px solid linear-gradient(rgba(0,132,255,1), rgba(87,38,227,1));
+  }
+  .v66_39 {
+    width: 5px;
+    height: 14px;
+    background: url("../images/v66_39.png");
+    opacity: 1;
+    position: absolute;
+    top: 1066px;
+    left: 500px;
+    border: 5px solid linear-gradient(rgba(0,132,255,1), rgba(87,38,227,1));
+  }
+  .v66_41 {
+    width: 335px;
+    height: 500px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 559px;
+    left: 886px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.07000000029802322);
+  }
+  .v76_30 {
+    width: 40px;
+    height: 15px;
+    background: url("../images/v76_30.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1032px;
+    left: 1051px;
+    overflow: hidden;
+  }
+  .v66_46 {
+    width: 40px;
+    height: 15px;
+    background: rgba(53,53,53,0.4000000059604645);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+  .v66_47 {
+    width: 17px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 1px;
+    left: 11px;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v76_29 {
+    width: 284px;
+    height: 447px;
+    background: url("../images/v76_29.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 576px;
+    left: 920px;
+    overflow: hidden;
+  }
+  .v66_49 {
+    width: 284px;
+    height: 447px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 2px solid rgba(197,197,197,0.5);
+  }
+  .v67_54 {
+    width: 88px;
+    color: rgba(73,73,73,1);
+    position: absolute;
+    top: 27px;
+    left: 26px;
+    font-family: Montserrat;
+    font-weight: Italic;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v67_55 {
+    width: 81px;
+    color: rgba(73,73,73,1);
+    position: absolute;
+    top: 102px;
+    left: 193px;
+    font-family: Montserrat;
+    font-weight: Italic;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v67_57 {
+    width: 136px;
+    color: rgba(73,73,73,1);
+    position: absolute;
+    top: 217px;
+    left: 26px;
+    font-family: Montserrat;
+    font-weight: Italic;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v67_56 {
+    width: 227px;
+    color: rgba(73,73,73,1);
+    position: absolute;
+    top: 253px;
+    left: 26px;
+    font-family: Montserrat;
+    font-weight: Italic;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v67_58 {
+    width: 77px;
+    color: rgba(73,73,73,1);
+    position: absolute;
+    top: 407px;
+    left: 26px;
+    font-family: Montserrat;
+    font-weight: Italic;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .table-header {
+    background-color: black;
+    color: #fff;
+  }
+  
+  .table {
+    width: 100%;
+    border: 1px
+    solid #EEEEEE;
+    border-collapse: collapse;
+  }
+  
+  .table-row {
+    border-bottom: 1pt solid black;
+  }
+  
+  .upload-field {
+    width: 30%;
+    height: 25%;
+    border: 2px dashed rgba(163,160,195,1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px;
+  }
+  
+  .upload-span {
+      color: rgba(17,11,86,1);
+      position: relative;
+      top: 120px;
+      left: 17%;
+      font-family: Inter;
+      font-weight: Bold;
+      font-size: 18px;
+      opacity: 1;
+      text-align: center;
+  }
+  
+  .upload-span2 {
+    color: rgba(17,11,86,1);
+    position: relative;
+    top: 130px;
+    left: 20px;
+    font-family: Montserrat;
+    font-weight: Italic;
+    font-size: 10px;
+    opacity: 1;
+    text-align: center;
+  }

@@ -1,0 +1,88 @@
+.dynamicTable_html_layout {display: none; z-index:0;}
+
+.dynamicTable_contextMenu { width:300px; border-collapse:collapse; border:1px solid #C0C0C0; }
+.dynamicTable_contextMenu tr { } 
+.dynamicTable_contextMenu tr td { background-color: #EAEAEA; border-bottom:1px solid #C0C0C0; line-height:15px; }
+
+.dynamicTable_contextMenu tr.NONE { height:2px; padding:0px; margin: 0px; }
+.dynamicTable_contextMenu tr.NONE td { height:2px; padding:0px; margin: 0px; }
+
+.dynamicTable_contextMenu tr.FILTER_CHECKBOX { height:150px; overflow-x:hidden; overflow-y:scroll; }
+.dynamicTable_contextMenu tr.FILTER_CHECKBOX td { padding:0px; }
+.dynamicTable_contextMenu tr.FILTER_CHECKBOX td div { height:150px; padding:0px; width:100%; overflow-x:hidden; overflow-y:scroll; }
+.dynamicTable_contextMenu tr.FILTER_CHECKBOX td div ul { padding-left:20px; padding-top:0px; }
+
+
+
+.dynamicTable_tableInfo { width:100%; height: 25px; border-collapse:collapse; background:url(../icons/header_hg.gif); background-repeat:repeat-x; }
+.dynamicTable_tableInfo tbody tr td { margin:0px; padding:0px; height: 25px; vertical-align:middle; }
+.dynamicTable_tableInfo tbody tr td span { }
+.dynamicTable_tableInfo tbody tr td input[type=text] { margin-bottom: 3px; }
+.dynamicTable_tableInfo tbody tr td img { }
+
+.dynamicTable_tableInfo tbody tr td div.button_minimize { width:25px; height:25px; background-image:url(../icons/liste_minimieren_inactive.png); display:inline-block; cursor:pointer; cursor:hand; }
+.dynamicTable_tableInfo tbody tr td div.button_minimize:hover { width:25px; height:25px; background-image:url(../icons/liste_minimieren_active.png); display:inline-block; cursor:pointer; cursor:hand; }
+.dynamicTable_tableInfo tbody tr td div.button_minimize_active { width:25px; height:25px; background-image:url(../icons/liste_minimieren_active.png); display:inline-block; }
+
+.dynamicTable_tableInfo tbody tr td div.button_maximize { width:25px; height:25px; background-image:url(../icons/liste_maximieren_inactive.png); display:inline-block; cursor:pointer; cursor:hand; }
+.dynamicTable_tableInfo tbody tr td div.button_maximize:hover { width:25px; height:25px; background-image:url(../icons/liste_maximieren_active.png); display:inline-block; cursor:pointer; cursor:hand; }
+.dynamicTable_tableInfo tbody tr td div.button_maximize_active { width:25px; height:25px; background-image:url(../icons/liste_maximieren_active.png); display:inline-block; }
+
+.dynamicTable_mainTable thead th { background-color: #FFFFFF; padding: 5px; text-align: left; border-bottom: 2px solid #2C2C2C; }
+.dynamicTable_mainTable tbody td { background-color: #FFFFFF; padding: 5px; text-align: left; border-bottom: 2px solid #9E9E9E; }
+.dynamicTable_mainTable tbody td.group { background-color: #e0e0e0; padding: 5px; text-align: left; border-bottom: 2px solid #9E9E9E;}
+.dynamicTable_mainTable tbody td.groupelement { background-color: #eaeaea; padding: 5px; text-align: left; border-bottom: 2px solid #9E9E9E;}
+
+
+.dynamicTable_mainTable thead th .header_table { background-color: #FFFFFF; padding: 0px; text-align: left; border-bottom: 0px solid #000000; border-spacing: 0px; border-collapse: collapse; }
+.dynamicTable_mainTable thead th .header_table tbody td { background-color: #FFFFFF; padding: 0px; text-align: left; border-bottom: 0px solid #000000; border-spacing: 0px; border-collapse: collapse; }
+
+.header_text_sortable { cursor:pointer; cursor:hand; }
+
+.entriesperpage {width: 20px; font-size: 11px; font-family: Arial, Helvetica, sans-serif;}
+.page_input {width: 20px; font-size: 11px; font-family: Arial, Helvetica, sans-serif;}
+.search_input { width: 150px; font-size: 11px; font-family: Arial, Helvetica, sans-serif;}
+
+.loading_icon { width: 25px; height: 25px;}
+
+/* Image buttons */
+.entriesperpagesubmit { cursor: pointer;}
+.search_button { cursor: pointer;}
+.search_clear { cursor: pointer;}
+.filter_icon_normal { cursor: pointer;}
+.filter_icon_active { cursor: pointer;}
+.column_visibility_button { cursor: pointer; font-weight:bold; }
+.config_button { cursor: pointer; font-weight:bold; }
+
+/* Hint text for textbox filters */
+.hint { font-size:9px; font-weight:normal; }
+
+/* Textbox filters normal and error state */
+.dynamicTable_contextMenu tr.FILTER_TEXTSEARCH input.normal { background-color: #FFFFFF; }
+.dynamicTable_contextMenu tr.FILTER_TEXTSEARCH input.error { background-color: #EA6767; }
+.dynamicTable_contextMenu tr.FILTER_FROM input.normal { background-color: #FFFFFF; }
+.dynamicTable_contextMenu tr.FILTER_FROM input.error { background-color: #EA6767; }
+.dynamicTable_contextMenu tr.FILTER_TO input.normal { background-color: #FFFFFF; }
+.dynamicTable_contextMenu tr.FILTER_TO input.error { background-color: #EA6767; }
+
+/* Allgemein die Submit Buttons */
+/*.SUBMIT_BUTTON button { color:#000000; }*/
+tr.SUBMIT_BUTTON td{ padding:0px; }
+.SUBMIT_BUTTON button { color:#000000; background-color: #FFFFFF; border: 1px solid #9E9E9E; font-size: 12px; font-family: Arial, Helvetica, sans-serif; height: 25px; width:150px; padding: 4px; cursor: pointer;}
+
+tr.SUBMIT_BUTTON_LIST td{ padding:0px; }
+.SUBMIT_BUTTON_LIST button { color:#000000; background-color: #FFFFFF; border: 0px; border-bottom: 1px solid #9E9E9E; width:100%; height: 20px; padding: 3px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: left; cursor: pointer; }
+
+tr.SHOW_LIGHTBOX_BUTTON td{ padding:0px; }
+.SHOW_LIGHTBOX_BUTTON button { color:#000000; background-color: #FFFFFF; border: 0px; border-bottom: 1px solid #9E9E9E; border-top: 1px solid #9E9E9E; width:100%; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: left;  cursor: pointer; }
+
+/* Column visibility popup styles */
+.column_visibility_wrapper tbody td { background-color: #FFFFFF; padding: 5; text-align: left; border-bottom: 1px solid #9E9E9E; }
+.column_visibility_wrapper thead th { background-color: #FFFFFF; padding: 5; text-align: left; border-bottom: 0px; }
+
+.config_wrapper tbody td { background-color: #FFFFFF; padding: 0; text-align: left; border-bottom: 0px; }
+.config_wrapper thead th { background-color: #FFFFFF; padding: 0; text-align: left; border-bottom: 0px; }
+
+
+/* .dynamicTable_mainTable tbody tr:nth-child(odd) td { background-color: #F1F1F1;  } */
+/* .dynamicTable_mainTable tbody tr:nth-child(even) td { background-color: #FFFFFF; } */

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Access to /kim_online/online/cronjobs"
+AuthUserFile /kunden/homepages/32/d164859723/htpasswd
+Require user cronjobs

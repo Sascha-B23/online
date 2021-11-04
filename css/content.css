@@ -1,0 +1,539 @@
+/* Mit Universalselektor die Polsterungseigenschaften aller (Block-)Elemente auf null setzen */
+/*
+* { 
+margin: 0;
+padding: 0;
+}
+*/
+
+/* text-align:center wieder aufheben, damit DIV-Inhalte linksbündig ausgerichtet sind */
+/*
+div {
+text-align: left; 
+}
+*/
+
+/* DIV-Boxen */
+
+div#wrapper {
+
+width: 950px;
+margin: 0px auto;
+background-color:#ffffff;
+
+/*background-image: url(../../pics/background.gif);
+background-repeat: repeat-y;*/
+position:relative;
+}
+
+
+
+/*
+*
+* Seite allgemein
+*
+*/
+
+body{
+	text-align: center;
+	background-color:#ffffff;
+	color:#404040;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 16px;
+	margin-top:0px;
+	padding:0px;	
+}
+
+table{
+	color:#404040;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 16px;
+}
+
+img{
+	border:0;
+	margin:0px;
+	padding:0px;	
+}
+
+.smallText{
+	color:#404040;
+	font-size: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 13px;	
+}
+
+
+/*
+*
+* Link
+*
+*/
+A:link{
+	color:#666666;
+	font-size: 11px;
+	/*font-weight: bold;*/
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+A:visited{
+	color:#666666;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;	
+}
+
+A:active{
+	color:#993333;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;	
+}
+
+A:hover{
+	color:#993333;
+	text-decoration: none;	
+}
+
+
+/*
+*
+* Input Elemente 
+*
+*/
+input[type=text]{
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=password]{
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+select{
+	font-size: 11px; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea{
+	font-size: 11px; 
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+
+/*
+*
+* Input Elemente List-Header
+*
+*/
+.listHeaderInput{
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.TAPMatrixHeader{
+	background-color:#cccccc;
+	border-bottom-width: 1px; 
+	border-bottom-style:solid; 
+	border-bottom-color:#ffffff;
+}
+
+.TAPMatrixHeader2{
+	background-color:#cccccc;
+	border-bottom-width: 1px; 
+	border-bottom-style:solid; 
+	border-bottom-color:#ffffff;
+	border-right-width: 1px; 
+	border-right-style:solid;
+	border-right-color:#ffffff;
+}
+
+.TAPMatrixLeftRow{
+	border-bottom-width: 1px; 
+	border-bottom-style: solid; 
+	border-bottom-color: #ffffff; 
+	border-right-width: 1px; 
+	border-right-style: solid; 
+	border-right-color:#ffffff;
+	background-color: #cccccc;
+}
+
+.TAPMatrixRow{
+	border-bottom-width: 1px; 
+	border-bottom-style: solid; 
+	border-bottom-color: #cccccc;
+}
+
+/*
+*
+* Link mehr/weiter/...
+*
+
+a.mehr_link:link{
+	color:#559cd2;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;	
+	text-decoration: none;
+}
+
+a.mehr_link:visited{
+	color:#559cd2;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;	
+	text-decoration: none;
+}
+
+a.mehr_link:active{
+	color:#559cd2;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;	
+	text-decoration: none;
+}
+
+a.mehr_link:hover{
+	color:#717878;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;	
+	text-decoration: none;
+}
+*/
+
+
+/*
+*
+* Link Weiter zu Schritt X
+*
+
+a.biglink:link{
+	color:#559cd2;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;	
+	text-decoration: none;
+}
+
+a.biglink:visited{
+	color:#559cd2;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;	
+	text-decoration: none;
+}
+
+a.biglink:active{
+	color:#559cd2;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;	
+	text-decoration: none;
+}
+
+a.biglink:hover{
+	color:#717878;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;	
+	text-decoration: none;
+}
+
+
+/*
+*
+*  Content
+*
+
+
+
+.contentText{
+	color:#404040;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;	
+	line-height: 20px;
+}
+
+
+.smallText{
+	color:#404040;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;	
+	line-height: 15px;
+}
+
+
+.copyrightText{
+	color:#999999;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;	
+	line-height: 15px;
+}
+
+
+.NewsText{
+	color:#404040;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;	
+	line-height: 14px;
+}
+
+
+.VermerkText{
+	color:#404040;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;	
+	line-height: 13px;
+}
+
+
+.NewsDatum{
+	color:#717878;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;	
+	line-height: 15px;
+}
+
+
+.blueText{
+	color:#559cd2;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+.blueText2{
+	color:#559cd2;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 12px;
+}
+
+.headline{
+	color:#404040;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-weight: bold;
+	line-height: normal;
+}
+
+.headline2{
+	color:#404040;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-weight: bold;
+	line-height: normal;
+}
+
+.blueheadline{
+	color:#559cd2;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.blueheadline1{
+	color:#559cd2;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.blueheadline2{
+	color:#559cd2;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.blueTable{
+border: 1px solid #559cd2;
+
+}
+
+.statusText{
+	color:#999999;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;	
+	line-height: 20px;
+}
+
+
+
+
+*
+*  Aufzählung
+*
+
+
+UL{
+	list-style-type: disc;
+	margin-top: 5px;
+	margin-left: 16px;
+	color:#333333;
+	line-height: 20px;		
+}
+*/
+
+
+/*
+*
+*  Formulare
+*
+*/
+
+.formTextLoginBox{
+	color:#404040;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;	
+	border: 0px;
+}
+
+.formButton{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;	
+	border: 1px solid #cc0033;
+	background-color: #ededed;
+	height: 18px;
+	width: 60px;
+	padding: 2px;
+}
+
+.formButton2{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;	
+	border: 1px solid #cc0033;
+	background-color: #ededed;
+	height: 18px;
+}
+
+.formText{
+	font-size: 7px;
+	font-family: Arial, Helvetica, sans-serif;	
+	border: 1px solid #bbbcc2;
+	background-color: #ededed;
+}
+
+.formSelect{
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;	
+	border: 1px solid #bbbcc2;
+	background-color: #ededed;
+}
+
+.formCeckboxHiglight {
+	border: 1px solid #aa3333;
+	cursor: help;
+}
+
+
+/*
+*
+*  Tabelle
+*
+*/
+
+.td_blueborder{
+	border-left-width:1px;
+	border-left-style:solid;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-color:#559cd2;	
+	background-color:#eaeaea;
+}
+
+
+/*
+*
+*  Tab
+*
+*/
+
+
+.tabActive {
+	color:#993333;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;	
+	text-decoration: none;
+}
+
+.tabInactive {
+	color:#ffffff;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;	
+	text-decoration: none;
+}
+
+
+/*
+*
+*  Errormeldung
+*
+*/
+
+.errorText{
+	color:#db2209;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;	
+	line-height: 15px;
+}
+
+.errorText2{
+	color:#db2209;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;	
+	line-height: 18px;
+}
+
+.errorScript{
+	color:#db2209;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;	
+	line-height: 15px;
+}
+
+.successText{
+	color:#22aa09;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;	
+	line-height: 15px;
+}
+
+.adviceText{
+	color:#aa5510;
+	font-style: italic;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;	
+	line-height: 15px;
+}
+
+/*
+* Widerspruchgenerator
+*/
+#wstable
+{
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-collapse:collapse;
+	border-spacing: 0px;
+}
+#wstable td, #wstable th 
+{
+	vertical-align: top;
+	font-size: 12px;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	text-decoration: none;
+}
+#wstable th 
+{
+	text-align: left;
+	font-weight: bold;
+}

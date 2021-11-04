@@ -1,0 +1,430 @@
+[04-May-2021 16:30:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5:48
+Stack trace:
+#0 /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/DBManagerFactory.lib.php5(42): MySqlManager->MySqlManager('db436298921', 'localhost:/tmp/...', 'dbo436298921', 'djFAj_m3aaDKl32', Object(ErrorManager), false, 0)
+#1 /homepages/32/d164859723/htdocs/kim_online/online/phplib/domain.initialize_objects.NKAS.inc.php5(20): DBManagerFactory::CreateDBManagerInstance(1, 'db436298921', 'localhost:/tmp/...', 'dbo436298921', 'djFAj_m3aaDKl32', Object(ErrorManager), Object(ExtendedLanguageManager), false)
+#2 /homepages/32/d164859723/htdocs/kim_online/online/phplib/session.inc.php5(62): include('/homepages/32/d...')
+#3 /homepages/32/d164859723/htdocs/kim_online/online/de/berichte/kundenstandorte.php5(8): require_once('/homepages/32/d...')
+#4 {main}
+  thrown in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 48
+[04-May-2021 16:30:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5:48
+Stack trace:
+#0 /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/DBManagerFactory.lib.php5(42): MySqlManager->MySqlManager('db436298921', 'localhost:/tmp/...', 'dbo436298921', 'djFAj_m3aaDKl32', Object(ErrorManager), false, 0)
+#1 /homepages/32/d164859723/htdocs/kim_online/online/phplib/domain.initialize_objects.NKAS.inc.php5(20): DBManagerFactory::CreateDBManagerInstance(1, 'db436298921', 'localhost:/tmp/...', 'dbo436298921', 'djFAj_m3aaDKl32', Object(ErrorManager), Object(ExtendedLanguageManager), false)
+#2 /homepages/32/d164859723/htdocs/kim_online/online/phplib/session.inc.php5(62): include('/homepages/32/d...')
+#3 /homepages/32/d164859723/htdocs/kim_online/online/de/meineaufgaben/process.php5(12): require_once('/homepages/32/d...')
+#4 {main}
+  thrown in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 48
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0000 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlSTX is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlSOT is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlETX is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlEOT is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlENQ is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlACK is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlBEL is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlBS is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlHT is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlLF is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlVT is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlFF is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlCR is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlSO is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlSI is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlDLE is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlDC1 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlDC2 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlDC3 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlDC4 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlNAK is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlSYN is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlETB is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlCAN is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlEM is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlSUB is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlESC is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlFS is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlGS is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlRS is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlUS is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlDEL is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0080 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0081 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0082 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0083 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0084 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0085 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0086 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0087 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0088 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0089 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u008A is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u008B is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u008C is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u008D is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u008E is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u008F is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0090 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0091 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0092 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0093 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0094 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0095 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0096 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0097 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0098 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0099 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u009A is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u009B is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u009C is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u009D is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u009E is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u009F is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character nonbreakingspace is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character softhyphen is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0000 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlSTX is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlSOT is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlETX is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlEOT is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlENQ is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlACK is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlBEL is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlBS is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlHT is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlLF is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlVT is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlFF is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlCR is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlSO is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlSI is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlDLE is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlDC1 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlDC2 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlDC3 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlDC4 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlNAK is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlSYN is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlETB is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlCAN is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlEM is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlSUB is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlESC is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlFS is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlGS is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlRS is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlUS is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character controlDEL is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0080 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0081 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0082 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0083 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0084 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0085 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0086 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0087 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0088 is missing<BR>
+[04-May-2021 16:54:38 Europe/Berlin] <B>Warning:</B> character u0089 is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u008A is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u008B is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u008C is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u008D is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u008E is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u008F is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u0090 is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u0091 is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u0092 is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u0093 is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u0094 is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u0095 is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u0096 is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u0097 is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u0098 is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u0099 is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u009A is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u009B is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u009C is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u009D is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u009E is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character u009F is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character nonbreakingspace is missing<BR>
+[04-May-2021 16:54:39 Europe/Berlin] <B>Warning:</B> character softhyphen is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0000 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSTX is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSOT is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlETX is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlEOT is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlENQ is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlACK is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlBEL is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlBS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlHT is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlLF is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlVT is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlFF is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlCR is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSO is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSI is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDLE is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDC1 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDC2 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDC3 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDC4 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlNAK is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSYN is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlETB is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlCAN is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlEM is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSUB is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlESC is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlFS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlGS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlRS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlUS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDEL is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character nonbreakingspace is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character softhyphen is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0000 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSTX is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSOT is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlETX is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlEOT is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlENQ is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlACK is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlBEL is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlBS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlHT is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlLF is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlVT is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlFF is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlCR is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSO is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSI is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDLE is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDC1 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDC2 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDC3 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDC4 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlNAK is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSYN is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlETB is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlCAN is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlEM is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSUB is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlESC is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlFS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlGS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlRS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlUS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDEL is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0080 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0081 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0082 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0083 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0084 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0085 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0086 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0087 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0088 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0089 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u008A is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u008B is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u008C is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u008D is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u008E is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u008F is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0090 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0091 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0092 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0093 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0094 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0095 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0096 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0097 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0098 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0099 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u009A is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u009B is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u009C is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u009D is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u009E is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u009F is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character nonbreakingspace is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character softhyphen is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0000 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSTX is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSOT is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlETX is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlEOT is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlENQ is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlACK is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlBEL is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlBS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlHT is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlLF is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlVT is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlFF is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlCR is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSO is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSI is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDLE is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDC1 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDC2 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDC3 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDC4 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlNAK is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSYN is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlETB is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlCAN is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlEM is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlSUB is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlESC is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlFS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlGS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlRS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlUS is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character controlDEL is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0080 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0081 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0082 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0083 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0084 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0085 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0086 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0087 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0088 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0089 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u008A is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u008B is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u008C is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u008D is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u008E is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u008F is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0090 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0091 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0092 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0093 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0094 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0095 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0096 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0097 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0098 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u0099 is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u009A is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u009B is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u009C is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u009D is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u009E is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character u009F is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character nonbreakingspace is missing<BR>
+[06-May-2021 14:04:50 Europe/Berlin] <B>Warning:</B> character softhyphen is missing<BR>
+[07-May-2021 08:07:00 Europe/Berlin] Could not find good page break location
+[12-May-2021 14:43:51 Europe/Berlin] Notice: Missing AFM file '/homepages/32/d164859723/htdocs/kim_online/online/phplib/html2ps_v2043/fonts/frutiger_ce_45_light.afm'; attempting to parse font file '/homepages/32/d164859723/htdocs/kim_online/online/phplib/html2ps_v2043/fonts/frutiger_ce_45_light.ttf' directly
+[12-May-2021 14:43:51 Europe/Berlin] Notice: Missing AFM file '/homepages/32/d164859723/htdocs/kim_online/online/phplib/html2ps_v2043/fonts/frutiger_ce_45_light.afm'; attempting to parse font file '/homepages/32/d164859723/htdocs/kim_online/online/phplib/html2ps_v2043/fonts/frutiger_ce_45_light.ttf' directly
+[19-May-2021 10:45:29 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 984088576) (tried to allocate 72 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/DBManager.lib.php5 on line 626
+[19-May-2021 14:21:53 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 983826432) (tried to allocate 72 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/WorkflowManager-1.0/WorkflowStatus.lib.php5 on line 84
+[21-May-2021 10:12:32 Europe/Berlin] PHP Fatal error:  Allowed memory size of 524288000 bytes exhausted (tried to allocate 89 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 302
+[23-Jun-2021 10:55:28 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 983564288) (tried to allocate 87 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 302
+[23-Jun-2021 10:57:24 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 983564288) (tried to allocate 72 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/DBManager.lib.php5 on line 266
+[23-Jun-2021 10:58:18 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 983826432) (tried to allocate 32 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 303
+[23-Jun-2021 11:05:29 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 983826432) (tried to allocate 32 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 303
+[23-Jun-2021 11:09:51 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 983826432) (tried to allocate 72 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/DBManager.lib.php5 on line 266
+[29-Jun-2021 08:48:04 Europe/Berlin] Could not find good page break location
+[29-Jun-2021 08:50:15 Europe/Berlin] Could not find good page break location
+[30-Jun-2021 08:38:57 Europe/Berlin] Could not find good page break location
+[02-Jul-2021 06:39:10 Europe/Berlin] PHP Catchable fatal error:  Argument 2 passed to UserManager::IsUserAllowedTo() must be an instance of User, null given, called in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 340 and defined in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 313
+[17-Jul-2021 14:42:00 Europe/Berlin] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/ListManager/BereichtStandortvergleichProzessstatusListData.lib.php5 on line 315
+[22-Jul-2021 10:38:37 Europe/Berlin] PHP Fatal error:  Allowed memory size of 524288000 bytes exhausted (tried to allocate 1024 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 302
+[22-Jul-2021 18:07:37 Europe/Berlin] PHP Catchable fatal error:  Argument 2 passed to UserManager::IsUserAllowedTo() must be an instance of User, null given, called in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 340 and defined in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 313
+[02-Aug-2021 14:10:32 Europe/Berlin] Could not find good page break location
+[04-Aug-2021 13:42:55 Europe/Berlin] PHP Catchable fatal error:  Argument 2 passed to UserManager::IsUserAllowedTo() must be an instance of User, null given, called in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 340 and defined in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 313
+[09-Aug-2021 08:33:44 Europe/Berlin] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 83 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 302
+[09-Aug-2021 12:21:17 Europe/Berlin] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 722
+[12-Aug-2021 13:00:41 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 983826432) (tried to allocate 83 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 302
+[17-Aug-2021 13:08:28 Europe/Berlin] PHP Fatal error:  Allowed memory size of 524288000 bytes exhausted (tried to allocate 77 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 302
+[01-Sep-2021 08:21:40 Europe/Berlin] PHP Catchable fatal error:  Argument 2 passed to UserManager::IsUserAllowedTo() must be an instance of User, null given, called in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 340 and defined in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 313
+[01-Sep-2021 10:12:32 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 983826432) (tried to allocate 32 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 722
+[07-Sep-2021 08:38:02 Europe/Berlin] PHP Catchable fatal error:  Argument 2 passed to UserManager::IsUserAllowedTo() must be an instance of User, null given, called in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 340 and defined in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 313
+[07-Sep-2021 09:28:16 Europe/Berlin] PHP Catchable fatal error:  Argument 2 passed to UserManager::IsUserAllowedTo() must be an instance of User, null given, called in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 340 and defined in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 313
+[14-Sep-2021 11:56:42 Europe/Berlin] PHP Fatal error:  Call to a member function GetLifeOfLeaseString() on null in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/WorkflowManager-1.0/nkas/NkasVertragErfassen.lib.php5 on line 368
+[14-Sep-2021 11:58:04 Europe/Berlin] PHP Fatal error:  Call to a member function GetLifeOfLeaseString() on null in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/WorkflowManager-1.0/nkas/NkasVertragErfassen.lib.php5 on line 368
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0000 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlSTX is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlSOT is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlETX is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlEOT is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlENQ is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlACK is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlBEL is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlBS is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlHT is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlLF is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlVT is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlFF is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlCR is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlSO is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlSI is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlDLE is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlDC1 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlDC2 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlDC3 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlDC4 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlNAK is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlSYN is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlETB is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlCAN is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlEM is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlSUB is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlESC is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlFS is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlGS is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlRS is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlUS is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character controlDEL is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0080 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0081 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0082 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0083 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0084 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0085 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0086 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0087 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0088 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0089 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u008A is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u008B is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u008C is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u008D is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u008E is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u008F is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0090 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0091 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0092 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0093 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0094 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0095 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0096 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0097 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0098 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u0099 is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u009A is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u009B is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u009C is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u009D is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u009E is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character u009F is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character nonbreakingspace is missing<BR>
+[20-Sep-2021 10:27:07 Europe/Berlin] <B>Warning:</B> character softhyphen is missing<BR>
+[05-Oct-2021 16:52:25 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 983826432) (tried to allocate 72 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/DBManager.lib.php5 on line 266
+[08-Oct-2021 14:25:16 Europe/Berlin] PHP Fatal error:  Allowed memory size of 524288000 bytes exhausted (tried to allocate 32 bytes) in /homepages/32/d164859723/htdocs/kim_online/online/packages/global/DBManager-2.0/MySqlManager-2.0/MySqlManager.lib.php5 on line 302
+[11-Oct-2021 08:39:09 Europe/Berlin] Could not find good page break location
+[12-Oct-2021 09:46:55 Europe/Berlin] Could not find good page break location
+[12-Oct-2021 10:15:45 Europe/Berlin] Could not find good page break location
+[12-Oct-2021 10:37:30 Europe/Berlin] Could not find good page break location
+[21-Oct-2021 17:52:53 Europe/Berlin] PHP Fatal error:  Call to a member function SetBegruendung() on null in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/WorkflowManager-1.0/nkas/NkasAbbrechen.lib.php5 on line 82
+[21-Oct-2021 17:53:43 Europe/Berlin] PHP Fatal error:  Call to a member function SetBegruendung() on null in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/WorkflowManager-1.0/nkas/NkasAbbrechen.lib.php5 on line 82
+[21-Oct-2021 17:54:18 Europe/Berlin] PHP Fatal error:  Call to a member function SetBegruendung() on null in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/WorkflowManager-1.0/nkas/NkasAbbrechen.lib.php5 on line 82
+[21-Oct-2021 17:54:52 Europe/Berlin] PHP Fatal error:  Call to a member function SetBegruendung() on null in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/WorkflowManager-1.0/nkas/NkasAbbrechen.lib.php5 on line 82
+[21-Oct-2021 17:55:42 Europe/Berlin] PHP Fatal error:  Call to a member function SetBegruendung() on null in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/WorkflowManager-1.0/nkas/NkasAbbrechen.lib.php5 on line 82
+[22-Oct-2021 10:22:48 Europe/Berlin] PHP Fatal error:  Call to a member function SetBegruendung() on null in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/WorkflowManager-1.0/nkas/NkasAbbrechen.lib.php5 on line 82
+[25-Oct-2021 08:23:08 Europe/Berlin] PHP Catchable fatal error:  Argument 2 passed to UserManager::IsUserAllowedTo() must be an instance of User, null given, called in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 340 and defined in /homepages/32/d164859723/htdocs/kim_online/online/phplib/classes/UserManager-1.0/UserManager.lib.php5 on line 313
+[28-Oct-2021 15:06:27 Europe/Berlin] Could not find good page break location

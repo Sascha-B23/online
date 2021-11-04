@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content version="1.0">
+	<!-- Attributnamen -->
+	<entry id="TA_AUFTRAGSDATUM">Auftragsbeginn</entry>
+	<entry id="TA_BEZEICHNUNG">Bezeichnung</entry>
+	<entry id="TA_ABRECHNUNGSZEITRAUMVON">Beginn Abrechnungszeitraum</entry>
+	<entry id="TA_ABRECHNUNGSZEITRAUMBIS">Ende Abrechnungszeitraum</entry>
+	<entry id="TA_FRISTBELEGEINSICHT">Frist Belegeinsicht</entry>
+	<entry id="TA_FRISTWIDERSPRUCH">Frist Widerspruch lt. Verwalter</entry>
+	<entry id="TA_FRISTZAHLUNG">Frist Widerspruch lt. SFM</entry>
+	<entry id="TA_DATUM">Datum Abrechnung</entry>
+	<entry id="TA_ABRECHNUNGSERGEBNISLAUTABRECHNUNG">Summe Betrag TAPs lt. Abrechnung</entry>
+	<entry id="TA_SUMMEBETRAGKUNDETAP">Summe Betrag TAPs lt. SFM</entry>
+	<entry id="TA_VORAUSZAHLUNGLAUTABRECHNUNG">Vorauszahlung Abrechnung</entry>
+	<entry id="TA_VORAUSZAHLUNGLAUTKUNDE">Vorauszahlung Kunde</entry>
+	<entry id="TA_NACHZAHLUNGGUTSCHRIFT">Abrechnungsergebnis lt. Abrechnung</entry> <!-- hieß vorher "Nachzahlung / Gutschrift" im Status TA erfassen!?-->
+	<entry id="TA_KORRIGIERTESABRECHNUNGSERGEBNIS">Korrigiertes Abrechnungsergebnis</entry>
+	<entry id="TA_ABSCHLAGSZAHLUNGGUTSCHRIFT">Abschlagszahlung / Gutschrift</entry>
+	<entry id="TA_UMLAGEFLAECHE_QM">Umlagefläche (qm)</entry>
+	<entry id="TA_HIDESETTLEMENTDIFFERENCE">Differenz wg. Abrechnungsfehler</entry>
+	
+	<entry id="AJ_JAHR">Jahr</entry>
+
+	<entry id="CONTRACT_ID">Vertrags-ID</entry>
+
+</content>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content version="1.0">
+	<!-- Attributnamen -->
+	<entry id="GROUP_ID">Adressgruppen-ID</entry>
+	<entry id="GROUP_NAME">Name Gruppe</entry>
+	
+	<entry id="COMPANY_ID">Firmen-ID</entry>
+	<entry id="COMPANY_NAME">Name Firma</entry>
+	<entry id="COMPANY_EMAIL">E-Mail</entry>
+	<entry id="COMPANY_STREET">Straße</entry>
+	<entry id="COMPANY_ZIP">PLZ</entry>
+	<entry id="COMPANY_CITY">Ort</entry>
+	<entry id="COMPANY_PHONE">Telefon</entry>
+	<entry id="COMPANY_FAX">Fax</entry>
+	<entry id="COMPANY_COUNTRY">Land</entry>
+	<entry id="COMPANY_WEBSITE">Website</entry>
+	
+	<entry id="ADDRESSDATA_ID">Ansprechpartner-ID</entry>
+	<entry id="ADDRESSDATA_TITLE">Anrede</entry>
+	<entry id="ADDRESSDATA_TITLE2">Titel</entry>
+	<entry id="ADDRESSDATA_NAME">Nachname</entry>
+	<entry id="ADDRESSDATA_FIRSTNAME">Vorname</entry>
+	<entry id="ADDRESSDATA_ROLE">Funktion</entry>
+	<entry id="ADDRESSDATA_EMAIL">E-Mail</entry>
+	<entry id="ADDRESSDATA_STREET">Straße</entry>
+	<entry id="ADDRESSDATA_ZIP">PLZ</entry>
+	<entry id="ADDRESSDATA_CITY">Ort</entry>
+	<entry id="ADDRESSDATA_PHONE">Telefon</entry>
+	<entry id="ADDRESSDATA_MOBILE">Mobil</entry>
+	<entry id="ADDRESSDATA_FAX">Fax</entry>
+	<entry id="ADDRESSDATA_TYPE">Typ</entry>
+	<entry id="ADDRESSDATA_SHORTNAME">Kürzel</entry>
+	
+	
+
+</content>

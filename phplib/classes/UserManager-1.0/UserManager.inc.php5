@@ -1,0 +1,68 @@
+<?php
+
+// Konstanten des UserManagers
+define("UM_GROUP_BASETYPE_SUPERUSER", 1000);
+define("UM_GROUP_BASETYPE_ADMINISTRATOR", 750);
+define("UM_GROUP_BASETYPE_RSMITARBEITER", 500);
+define("UM_GROUP_BASETYPE_AUSHILFE_ERWEITERT", 475);
+define("UM_GROUP_BASETYPE_AUSHILFE", 451);
+define("UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT", 450);
+define("UM_GROUP_BASETYPE_LOWEST_FMS_USER_GROUP", 300);	// this group is just to border the FMS groups from the customer groups
+define("UM_GROUP_BASETYPE_KUNDE", 250);
+define("UM_GROUP_BASETYPE_NONE", 0);
+
+$UM_GROUP_BASETYPE = array(	UM_GROUP_BASETYPE_SUPERUSER => "Superuser",
+							UM_GROUP_BASETYPE_ADMINISTRATOR => "Administrator",
+							UM_GROUP_BASETYPE_RSMITARBEITER => "SFM Vollzugriff",
+							UM_GROUP_BASETYPE_AUSHILFE_ERWEITERT => "SFM Datenerfasser erweitert",
+							UM_GROUP_BASETYPE_AUSHILFE => "SFM Datenerfasser",
+							UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT => "SFM Buchhaltung",
+							UM_GROUP_BASETYPE_KUNDE => "Kunde",
+							UM_GROUP_BASETYPE_NONE => "None",
+							);
+
+$UM_GROUP_BASETYPE_INFOS = array(	
+							UM_GROUP_BASETYPE_SUPERUSER => Array('enableCoverUserForGroup' => false, 'useGroupForProcess' => UM_GROUP_BASETYPE_RSMITARBEITER),
+							UM_GROUP_BASETYPE_ADMINISTRATOR => Array('enableCoverUserForGroup' => false, 'useGroupForProcess' => UM_GROUP_BASETYPE_RSMITARBEITER),
+							UM_GROUP_BASETYPE_RSMITARBEITER => Array('enableCoverUserForGroup' => true),
+							UM_GROUP_BASETYPE_AUSHILFE_ERWEITERT => Array('enableCoverUserForGroup' => true),
+							UM_GROUP_BASETYPE_AUSHILFE => Array('enableCoverUserForGroup' => true),
+							UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT => Array('enableCoverUserForGroup' => true),
+							UM_GROUP_BASETYPE_KUNDE => Array('enableCoverUserForGroup' => true),
+							UM_GROUP_BASETYPE_NONE => Array('enableCoverUserForGroup' => false),
+						);
+
+
+// Define actions an group access on them
+define("UM_ACTION_EDIT_TAB_CURRENTTASK", 1);
+define("UM_ACTION_CREATE_NEW_TASK", 2);
+define("UM_ACTION_JUMP_BACK_TO_LAST_STATUS", 3);
+define("UM_ACTION_EDIT_PROTOCOL", 4);
+define("UM_ACTION_EDIT_COMMENT", 5);
+define("UM_ACTION_SHOW_PROCESS_TAB_CONTRACT", 6);
+define("UM_ACTION_SHOW_PROCESS_TAB_TEILABRECHNUNG", 7);
+define("UM_ACTION_SHOW_PROCESS_TAB_WIDERSPRUCH", 8);
+define("UM_ACTION_SHOW_PROCESS_TAB_TERMINSCHIENE", 9);
+
+define("UM_ACTION_SHOW_REPORT_STANDORTVERGLEICH_AMPEL", 11);
+define("UM_ACTION_SHOW_REPORT_STANDORTVERGLEICH_PROZESS", 12);
+define("UM_ACTION_SHOW_REPORT_TERMINSCHIENE", 13);
+
+
+$UM_ACTIONS = Array();
+$UM_ACTIONS[] = Array( "ID" => UM_ACTION_EDIT_TAB_CURRENTTASK, "description" => "Felder im Reiter 'Aktuelle Aufgabe' bearbeiten", "minGroupBasetype" => UM_GROUP_BASETYPE_LOWEST_FMS_USER_GROUP, "excludeGroupBasetypes" => Array(UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT, UM_GROUP_BASETYPE_AUSHILFE) );
+$UM_ACTIONS[] = Array( "ID" => UM_ACTION_CREATE_NEW_TASK, "description" => "Prüfung beauftragen", "minGroupBasetype" => UM_GROUP_BASETYPE_KUNDE, "excludeGroupBasetypes" => Array(UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT, UM_GROUP_BASETYPE_AUSHILFE) );
+$UM_ACTIONS[] = Array( "ID" => UM_ACTION_JUMP_BACK_TO_LAST_STATUS, "description" => "Zum vorherigen Status wechseln", "minGroupBasetype" => UM_GROUP_BASETYPE_LOWEST_FMS_USER_GROUP, "excludeGroupBasetypes" => Array(UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT, UM_GROUP_BASETYPE_AUSHILFE, UM_GROUP_BASETYPE_AUSHILFE_ERWEITERT) );
+$UM_ACTIONS[] = Array( "ID" => UM_ACTION_EDIT_PROTOCOL, "description" => "Protokoll erstellen", "minGroupBasetype" => UM_GROUP_BASETYPE_LOWEST_FMS_USER_GROUP, "excludeGroupBasetypes" => Array(UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT, UM_GROUP_BASETYPE_AUSHILFE, UM_GROUP_BASETYPE_AUSHILFE_ERWEITERT) );
+$UM_ACTIONS[] = Array( "ID" => UM_ACTION_EDIT_COMMENT, "description" => "Kommentare", "minGroupBasetype" => UM_GROUP_BASETYPE_LOWEST_FMS_USER_GROUP, "excludeGroupBasetypes" => Array(UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT) );
+$UM_ACTIONS[] = Array( "ID" => UM_ACTION_SHOW_PROCESS_TAB_CONTRACT, "description" => "Tab Vertrag", "minGroupBasetype" => UM_GROUP_BASETYPE_LOWEST_FMS_USER_GROUP, "excludeGroupBasetypes" => Array(UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT) );
+$UM_ACTIONS[] = Array( "ID" => UM_ACTION_SHOW_PROCESS_TAB_TEILABRECHNUNG, "description" => "Tab Teilabrechnung", "minGroupBasetype" => UM_GROUP_BASETYPE_LOWEST_FMS_USER_GROUP, "excludeGroupBasetypes" => Array(UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT) );
+$UM_ACTIONS[] = Array( "ID" => UM_ACTION_SHOW_PROCESS_TAB_WIDERSPRUCH, "description" => "Tab Widerspruch", "minGroupBasetype" => UM_GROUP_BASETYPE_LOWEST_FMS_USER_GROUP, "excludeGroupBasetypes" => Array(UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT, UM_GROUP_BASETYPE_AUSHILFE, UM_GROUP_BASETYPE_AUSHILFE_ERWEITERT) );
+$UM_ACTIONS[] = Array( "ID" => UM_ACTION_SHOW_PROCESS_TAB_TERMINSCHIENE, "description" => "Tab Terminschiene", "minGroupBasetype" => UM_GROUP_BASETYPE_KUNDE, "excludeGroupBasetypes" => Array(UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT, UM_GROUP_BASETYPE_AUSHILFE, UM_GROUP_BASETYPE_AUSHILFE_ERWEITERT) );
+
+$UM_ACTIONS[] = Array( "ID" => UM_ACTION_SHOW_REPORT_STANDORTVERGLEICH_AMPEL, "description" => "Standortvergleich Ampelbewertung", "minGroupBasetype" => UM_GROUP_BASETYPE_KUNDE, "excludeGroupBasetypes" => Array(UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT, UM_GROUP_BASETYPE_AUSHILFE, UM_GROUP_BASETYPE_AUSHILFE_ERWEITERT) );
+$UM_ACTIONS[] = Array( "ID" => UM_ACTION_SHOW_REPORT_STANDORTVERGLEICH_PROZESS, "description" => "Standortvergleich Prozessstatus", "minGroupBasetype" => UM_GROUP_BASETYPE_KUNDE, "excludeGroupBasetypes" => Array(UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT, UM_GROUP_BASETYPE_AUSHILFE, UM_GROUP_BASETYPE_AUSHILFE_ERWEITERT) );
+$UM_ACTIONS[] = Array( "ID" => UM_ACTION_SHOW_REPORT_TERMINSCHIENE, "description" => "Terminschiene", "minGroupBasetype" => UM_GROUP_BASETYPE_KUNDE, "excludeGroupBasetypes" => Array(UM_GROUP_BASETYPE_ACCOUNTSDEPARTMENT, UM_GROUP_BASETYPE_AUSHILFE, UM_GROUP_BASETYPE_AUSHILFE_ERWEITERT) );
+
+
+?>

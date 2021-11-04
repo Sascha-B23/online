@@ -1,0 +1,23 @@
+version: '2'
+services:
+  kim:
+    build: .
+    ports:
+      - "8000:80"
+    environment:
+      APP_ENV: docker
+    volumes:
+      - ./uploadfiles:/uploadfiles
+  mysql:
+    image: mariadb:latest
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+  phpmyadmin:
+    image: phpmyadmin
+    environment:
+      PMA_ARBITRARY: 1
+    restart: always
+    ports:
+      - 8080:80

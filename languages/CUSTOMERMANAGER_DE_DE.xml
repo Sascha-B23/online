@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content version="1.0">
+	<!-- Attributnamen -->
+	<entry id="GROUP_NAME">Gruppe Kunde</entry>
+	<entry id="COMPANY_NAME">Name Firma</entry>
+	<entry id="LOCATION_NAME">Name Standort</entry>
+	<entry id="LOCATION_TYPE">Standorttyp</entry>
+	<entry id="LOCATION_CITY">Ort</entry>
+	<entry id="LOCATION_COUNTRY">Land</entry>
+	<entry id="SHOP_NAME">Name Laden</entry>
+	<entry id="SHOP_FMS_ID">Laden-ID</entry>
+	<entry id="SHOP_CUSTOMER_ID">Kunden-ID</entry>
+	
+
+</content>
